@@ -7,8 +7,8 @@ This repository is linked to [this youtube video](https://www.youtube.com/watch?
 •	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
 
 ## Requirements
-•	PHP 7.3 or higher
-•	Node 12.13.0 or higher
+•	PHP 7.3 or higher <br>
+•	Node 12.13.0 or higher <br>
 
 ## Usage <br>
 Setting up your development environment on your local machine: <br>
@@ -44,4 +44,3 @@ Migrate the tables
 ```
 php artisan migrate
 ```
-![image](https://user-images.githubusercontent.com/63154066/126396435-14b27a99-cb53-4a4f-a0ed-5c5fea72b125.png)
