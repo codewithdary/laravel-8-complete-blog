@@ -40,6 +40,19 @@ DB_USERNAME={USERNAME}
 DB_PASSWORD={PASSWORD}
 ```
 
+If you want to send emails with activation/password recovering you need to setup mail server settings, to remote or local mail server <br>
+```
+MAIL_MAILER=smtp
+MAIL_HOST=mailhog
+MAIL_PORT=1025
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS=null
+MAIL_FROM_NAME="${APP_NAME}"
+```
+
+
 Migrate the tables
 ```
 php artisan migrate
